@@ -1,7 +1,7 @@
-export const App = () => {
+import Feedback from 'components/Feedback/Feedback';
+
+export default function App() {
   return (
-    <div>
-      React homework #02.1
-    </div>
+      <Feedback />
   );
 };
