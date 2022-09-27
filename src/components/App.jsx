@@ -40,6 +40,7 @@ export default class App extends React.Component{
     
                 <Section title="Please leave feedback">
                     <FeedbackOptions
+                        options={['Good', 'Neutral', 'Bad']}
                         onLeaveFeedback={onLeaveFeedback}
                     />
                 </Section>
